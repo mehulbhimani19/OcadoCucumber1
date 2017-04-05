@@ -48,11 +48,13 @@ public class RegistrationStepDeft extends  DriverManager
     public void i_enter_valid_first_name_in_first_name_filed()
     {
     driver.findElement(By.xpath(".//*[@id='qr-forename']")).sendKeys("Kabhi");
+        //enter first name 
     }
 
     @When("^I enter valid last name in last name filed$")public void i_enter_valid_last_name_in_last_name_filed()
     {
      driver.findElement(By.id("qr-surname")).sendKeys("kabhi");
+
     }
 
     @When("^I enter valid email addresh in email filed$")
